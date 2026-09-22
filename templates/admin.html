@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="admin-csrf" content="{{ csrf }}">
+  <title>Evliya Yönetim Otağı</title><link rel="stylesheet" href="/admin.css"><link rel="stylesheet" href="/admin-health.css">
+</head>
+<body>
+  <header class="admin-baslik">
+    <div><p class="admin-ustluk">Evliya Çelebi AI</p><h1>Yönetim Otağı</h1><p>Merak eğilimleri, deneyimler ve editoryal onaylar</p></div>
+    <div class="admin-baslik-aksiyon"><a href="#deneyimHaritasi">Deneyim Haritası</a><a href="/">Uygulamayı aç</a><form method="post" action="/admin/cikis"><button>Çıkış</button></form></div>
+  </header>
+  <main class="admin-govde" id="adminGovde" aria-busy="true">
+    <section class="admin-kartlar" id="ozetKartlari"></section>
+    <section class="icerik-sagligi" id="icerikSagligi" aria-label="Kültür içeriği sağlığı"></section>
+    <section class="deneyim-yonetimi" id="deneyimHaritasi" aria-busy="true">
+      <div class="deneyim-ust">
+        <div><span class="admin-ustluk">GoTürkiye deneyim kataloğu</span><h2>Deneyim Haritası</h2><p>Her deneyim uygun olduğu birden fazla ille eşleşebilir. Önerileri onayla, reddet veya yeni il ekle.</p></div>
+        <button type="button" id="yuksekGuvenOnayla" class="toplu-onay">✓ Yüksek güvenlileri onayla</button>
+      </div>
+      <div class="deneyim-ozet" id="deneyimOzet"></div>
+      <div class="deneyim-filtreler">
+        <input type="search" id="deneyimArama" placeholder="Deneyim ara…" autocomplete="off">
+        <select id="deneyimDurum"><option value="tum">Tüm deneyimler</option><option value="oneri">Önerisi olanlar</option><option value="onayli">Onaylı olanlar</option><option value="reddedildi">Reddedilenler</option></select>
+      </div>
+      <div class="deneyim-listesi" id="deneyimListesi"></div>
+      <p class="deneyim-not">Başlangıç eşleşmeleri editoryal öneridir. Onaylanan kayıtlar ayrı tutulur; reddedilenler Evliya'nın doğrulanmış öneri havuzuna girmez.</p>
+    </section>
+    <section class="admin-izgara">
+      <article class="admin-panel admin-genis"><div class="panel-baslik"><div><span>Son 30 gün</span><h2>Merak hareketi</h2></div></div><div class="gunluk-grafik" id="gunlukGrafik"></div></article>
+      <article class="admin-panel"><div class="panel-baslik"><div><span>Diller</span><h2>Soru dağılımı</h2></div></div><div class="yatay-grafik" id="dilGrafik"></div></article>
+      <article class="admin-panel"><div class="panel-baslik"><div><span>Ülkeler</span><h2>Paylaşılan ülkeler</h2></div></div><div class="yatay-grafik" id="ulkeGrafik"></div><p class="panel-not" id="gizlilikNotu"></p></article>
+      <article class="admin-panel admin-genis"><div class="panel-baslik"><div><span>İlk 10</span><h2>En çok merak edilenler</h2></div></div><div class="konu-tablosu" id="konuTablosu"></div></article>
+    </section>
+    <p class="admin-guncelleme" id="adminGuncelleme"></p>
+  </main>
+  <script src="/admin.js"></script>
+</body>
+</html>

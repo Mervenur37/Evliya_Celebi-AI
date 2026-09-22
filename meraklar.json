@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "cay-ikrami", "ikon": "🍵", "kategori": "gundelik-hayat",
+    "temalar": ["yemek", "kultur"], "yerler": [],
+    "sorular": {"tr": "Türkler neden bu kadar çok çay ikram eder?", "en": "Why do Turkish people offer tea so often?", "de": "Warum bieten Türken so oft Tee an?", "ja": "なぜトルコではよくお茶を勧めるのですか？"}
+  },
+  {
+    "slug": "cami-ziyareti", "ikon": "🕌", "kategori": "inanc",
+    "temalar": ["tarih", "sanat"], "yerler": ["istanbul", "bursa", "edirne"],
+    "sorular": {"tr": "Bir camiyi turist olarak nasıl ziyaret etmeliyim?", "en": "How should I visit a mosque as a tourist?", "de": "Wie sollte ich als Tourist eine Moschee besuchen?", "ja": "観光客としてモスクを訪れる際の作法は？"}
+  },
+  {
+    "slug": "nazar-boncugu", "ikon": "🧿", "kategori": "gelenek",
+    "temalar": ["sanat", "kultur"], "yerler": [],
+    "sorular": {"tr": "Nazar boncuğu ne anlama gelir?", "en": "What does the evil eye bead mean?", "de": "Was bedeutet die Nazar-Perle?", "ja": "ナザール・ボンジュウにはどんな意味がありますか？"}
+  },
+  {
+    "slug": "evde-ayakkabi", "ikon": "👟", "kategori": "gundelik-hayat",
+    "temalar": ["aile", "kultur"], "yerler": [],
+    "sorular": {"tr": "Eve girerken neden ayakkabı çıkarılır?", "en": "Why do people take off their shoes before entering a home?", "de": "Warum zieht man beim Betreten eines Hauses die Schuhe aus?", "ja": "家に入るときになぜ靴を脱ぐのですか？"}
+  },
+  {
+    "slug": "turk-kahvaltisi", "ikon": "🍳", "kategori": "yemek",
+    "temalar": ["yemek", "aile"], "yerler": ["van", "istanbul"],
+    "sorular": {"tr": "Türk kahvaltısı neden bu kadar geniştir?", "en": "Why is Turkish breakfast so elaborate?", "de": "Warum ist das türkische Frühstück so umfangreich?", "ja": "トルコの朝食はなぜこんなに豊富なのですか？"}
+  },
+  {
+    "slug": "pazarlik", "ikon": "🛍️", "kategori": "gundelik-hayat",
+    "temalar": ["sanat", "kultur"], "yerler": ["istanbul", "gaziantep"],
+    "sorular": {"tr": "Türkiye'de nerede ve nasıl pazarlık yapılır?", "en": "Where and how does bargaining work in Türkiye?", "de": "Wo und wie wird in der Türkei gefeilscht?", "ja": "トルコではどこで、どのように値段交渉をしますか？"}
+  },
+  {
+    "slug": "bahsis", "ikon": "💰", "kategori": "pratik",
+    "temalar": ["yemek"], "yerler": [],
+    "sorular": {"tr": "Türkiye'de bahşiş ne zaman ve ne kadar verilir?", "en": "When and how much should I tip in Türkiye?", "de": "Wann und wie viel Trinkgeld gibt man in der Türkei?", "ja": "トルコではいつ、どのくらいチップを渡しますか？"}
+  },
+  {
+    "slug": "misafirperverlik", "ikon": "🤝", "kategori": "gundelik-hayat",
+    "temalar": ["aile", "kultur"], "yerler": [],
+    "sorular": {"tr": "Türk misafirperverliği günlük hayatta nasıl yaşanır?", "en": "What is Turkish hospitality like in everyday life?", "de": "Wie zeigt sich türkische Gastfreundschaft im Alltag?", "ja": "トルコのおもてなしは日常でどのように表れますか？"}
+  },
+  {
+    "slug": "ramazanda-seyahat", "ikon": "🌙", "kategori": "inanc",
+    "temalar": ["kultur"], "yerler": [],
+    "sorular": {"tr": "Ramazan ayında turist olarak nelere dikkat etmeliyim?", "en": "What should tourists know when visiting during Ramadan?", "de": "Was sollten Touristen während des Ramadan beachten?", "ja": "ラマダン中の旅行で気をつけることは？"}
+  },
+  {
+    "slug": "yalniz-seyahat", "ikon": "🎒", "kategori": "guvenlik",
+    "temalar": ["macera", "sakin"], "yerler": [],
+    "sorular": {"tr": "Türkiye'de yalnız seyahat ederken nelere dikkat etmeliyim?", "en": "What should I know about solo travel in Türkiye?", "de": "Was sollte ich bei einer Alleinreise durch die Türkei beachten?", "ja": "トルコを一人旅するときの注意点は？"}
+  },
+  {
+    "slug": "hamam-adabi", "ikon": "🫧", "kategori": "deneyim",
+    "temalar": ["sakin", "tarih"], "yerler": ["istanbul", "bursa"],
+    "sorular": {"tr": "İlk kez Türk hamamına giderken ne bilmeliyim?", "en": "What should I know before visiting a Turkish bath?", "de": "Was sollte ich vor meinem ersten Hamam-Besuch wissen?", "ja": "初めてトルコ風呂へ行く前に知っておくことは？"}
+  },
+  {
+    "slug": "kahve-fali", "ikon": "☕", "kategori": "gelenek",
+    "temalar": ["yemek", "kultur"], "yerler": [],
+    "sorular": {"tr": "Türk kahvesi falı nasıl bir gelenektir?", "en": "What is the tradition of Turkish coffee fortune telling?", "de": "Was hat es mit dem Kaffeesatzlesen auf sich?", "ja": "トルココーヒー占いとはどんな習慣ですか？"}
+  },
+  {
+    "slug": "sokak-kedileri", "ikon": "kedi", "kategori": "gundelik-hayat",
+    "temalar": ["aile", "kultur"], "yerler": ["istanbul", "izmir"],
+    "sorular": {"tr": "Türkiye'de sokak kedileri neden bu kadar çok sevilir?", "en": "Why are street cats so loved in Türkiye?", "de": "Warum werden Straßenkatzen in der Türkei so sehr geliebt?", "ja": "トルコではなぜ街の猫が大切にされているのですか？"}
+  },
+  {
+    "slug": "abi-abla-hitabi", "ikon": "hitap", "kategori": "gundelik-hayat",
+    "temalar": ["aile", "kultur"], "yerler": [],
+    "sorular": {"tr": "Türkler tanımadıkları kişilere neden abi veya abla der?", "en": "Why do Turkish people call strangers abi or abla?", "de": "Warum nennen Türken auch Fremde Abi oder Abla?", "ja": "トルコでは知らない人にもアビ、アブラと呼ぶのはなぜですか？"}
+  },
+  {
+    "slug": "dolmus-kullanimi", "ikon": "dolmus", "kategori": "pratik",
+    "temalar": ["macera", "kultur"], "yerler": ["istanbul", "antalya", "izmir"],
+    "sorular": {"tr": "Dolmuş nasıl kullanılır ve ücret nasıl ödenir?", "en": "How do I use a dolmuş and pay the fare?", "de": "Wie benutzt und bezahlt man einen Dolmuş?", "ja": "ドルムシュの乗り方と料金の支払い方は？"}
+  },
+  {
+    "slug": "kolonya-ikrami", "ikon": "kolonya", "kategori": "gelenek",
+    "temalar": ["aile", "kultur"], "yerler": [],
+    "sorular": {"tr": "Misafire kolonya ikram etme geleneği nereden gelir?", "en": "Why is cologne offered to guests in Türkiye?", "de": "Warum wird Gästen in der Türkei Kolonya angeboten?", "ja": "トルコで客にコロンヤを勧めるのはなぜですか？"}
+  },
+  {
+    "slug": "yolcuya-su-dokmek", "ikon": "su", "kategori": "gelenek",
+    "temalar": ["aile", "kultur"], "yerler": [],
+    "sorular": {"tr": "Yolcunun arkasından neden su dökülür?", "en": "Why is water poured after someone leaves on a journey?", "de": "Warum gießt man Reisenden beim Abschied Wasser hinterher?", "ja": "旅立つ人の後ろに水をまくのはなぜですか？"}
+  },
+  {
+    "slug": "kilim-desenleri", "ikon": "kilim", "kategori": "sanat",
+    "temalar": ["sanat", "tarih"], "yerler": ["gaziantep", "kayseri", "mardin"],
+    "sorular": {"tr": "Kilimlerdeki geleneksel motifler ne anlatır?", "en": "What stories do traditional kilim motifs tell?", "de": "Welche Geschichten erzählen traditionelle Kelim-Motive?", "ja": "伝統的なキリムの文様にはどんな意味がありますか？"}
+  },
+  {
+    "slug": "meze-sofrasi", "ikon": "meze", "kategori": "yemek",
+    "temalar": ["yemek", "deniz"], "yerler": ["istanbul", "izmir", "hatay"],
+    "sorular": {"tr": "Meze sofrasında nasıl seçim ve paylaşım yapılır?", "en": "How do people choose and share dishes at a meze table?", "de": "Wie wählt und teilt man Speisen an einer Meze-Tafel?", "ja": "メゼの食卓では料理をどう選び、分け合うのですか？"}
+  },
+  {
+    "slug": "dugun-gelenekleri", "ikon": "dugun", "kategori": "gelenek",
+    "temalar": ["aile", "kultur"], "yerler": [],
+    "sorular": {"tr": "Geleneksel bir Türk düğününde hangi ritüeller görülür?", "en": "Which rituals might I see at a traditional Turkish wedding?", "de": "Welche Rituale erlebt man bei einer traditionellen türkischen Hochzeit?", "ja": "伝統的なトルコの結婚式にはどんな儀式がありますか？"}
+  },
+  {
+    "slug": "tavla-kulturu", "ikon": "tavla", "kategori": "gundelik-hayat",
+    "temalar": ["sakin", "kultur"], "yerler": [],
+    "sorular": {"tr": "Kahvehanelerde tavla neden bu kadar yaygındır?", "en": "Why is backgammon so common in Turkish cafés?", "de": "Warum ist Backgammon in türkischen Cafés so verbreitet?", "ja": "トルコのカフェでバックギャモンが盛んなのはなぜですか？"}
+  },
+  {
+    "slug": "kahvenin-yaninda-su", "ikon": "kahve-su", "kategori": "yemek",
+    "temalar": ["yemek", "kultur"], "yerler": [],
+    "sorular": {"tr": "Türk kahvesinin yanında neden su ve lokum verilir?", "en": "Why are water and Turkish delight served with Turkish coffee?", "de": "Warum werden Wasser und Lokum zum türkischen Kaffee gereicht?", "ja": "トルココーヒーに水とロクムが添えられるのはなぜですか？"}
+  }
+]

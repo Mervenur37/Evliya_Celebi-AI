@@ -1,0 +1,18 @@
+.env
+assets/
+__pycache__/
+*.pyc
+evliya.db
+evliya.db-shm
+evliya.db-wal
+.venv/
+venv/
+.codex-spreadsheet/
+flask-runtime-*.log
+*.log
+.claude/
+Kamu Hizmeti Navigasyonu/
+kayud/
+tekduyuru/
+cikti_log*.md
+deneyimler.json

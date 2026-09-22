@@ -1,0 +1,732 @@
+{
+  "bursa": {
+    "ad": "Bursa",
+    "ad_da": "Bursa'da",
+    "merkez": [
+      40.1825734,
+      29.0675039
+    ],
+    "yerler": [
+      {
+        "ad": "Atatürk Heykeli",
+        "lat": 40.1825945,
+        "lon": 29.0668825,
+        "slug": "ataturk-heykeli",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Bursa City Museum",
+        "lat": 40.1823869,
+        "lon": 29.0664373,
+        "slug": "bursa-city-museum",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "Grand Bazaar",
+        "lat": 40.1833207,
+        "lon": 29.0663229,
+        "slug": "grand-bazaar",
+        "sure": 55,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "turistik-yer"
+      },
+      {
+        "ad": "French Church Culture House",
+        "lat": 40.1803855,
+        "lon": 29.0663075,
+        "slug": "french-church-culture-house",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "SULTAN ÇELEBİ MEHMED (YEŞİL) KÜLLİYESİ",
+        "lat": 40.1816982,
+        "lon": 29.0743683,
+        "slug": "sultan-celebi-mehmed-yesil-kulliyesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "observation deck on the city",
+        "lat": 40.1827966,
+        "lon": 29.0746048,
+        "slug": "observation-deck-on-the-city",
+        "sure": 40,
+        "temalar": [
+          "doga",
+          "sakin"
+        ],
+        "tur": "manzara"
+      },
+      {
+        "ad": "Bekir Dede Türbesi",
+        "lat": 40.1880082,
+        "lon": 29.0627844,
+        "slug": "bekir-dede-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Tofas Anatolian Car Museum",
+        "lat": 40.1765088,
+        "lon": 29.0710292,
+        "slug": "tofas-anatolian-car-museum",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "15 TEMMUZ DEMOKRASİ MEYDANI",
+        "lat": 40.1878017,
+        "lon": 29.0608049,
+        "slug": "15-temmuz-demokrasi-meydani",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Bursa Yaşam Kültürü Müzesi̇",
+        "lat": 40.1809009,
+        "lon": 29.0580764,
+        "slug": "bursa-yasam-kulturu-muzesi",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "Hünkar Köşkü İkici Set",
+        "lat": 40.175635,
+        "lon": 29.0636424,
+        "slug": "hunkar-kosku-ikici-set",
+        "sure": 40,
+        "temalar": [
+          "doga",
+          "sakin"
+        ],
+        "tur": "manzara"
+      },
+      {
+        "ad": "OSMANGAZİ ve ORHANGAZI TÜRBELERİ",
+        "lat": 40.1866247,
+        "lon": 29.0575535,
+        "slug": "osmangazi-ve-orhangazi-turbeleri",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "TOPHANE PARKI DÜZENLEME TARİHİ 2015",
+        "lat": 40.1866233,
+        "lon": 29.0575053,
+        "slug": "tophane-parki-duzenleme-tarihi-2015",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "İvaz Paşa",
+        "lat": 40.1797739,
+        "lon": 29.056193,
+        "slug": "ivaz-pasa",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Tophane",
+        "lat": 40.1878452,
+        "lon": 29.0574688,
+        "slug": "tophane",
+        "sure": 40,
+        "temalar": [
+          "doga",
+          "sakin"
+        ],
+        "tur": "manzara"
+      },
+      {
+        "ad": "Davutkadı Türbesi",
+        "lat": 40.1815039,
+        "lon": 29.086271,
+        "slug": "davutkadi-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Gül Çiçek Hatun Türbesi",
+        "lat": 40.1890275,
+        "lon": 29.0498576,
+        "slug": "gul-cicek-hatun-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Ulufeli Çocuk Parkı",
+        "lat": 40.1989074,
+        "lon": 29.0686438,
+        "slug": "ulufeli-cocuk-parki",
+        "sure": 50,
+        "temalar": [
+          "doga",
+          "sakin",
+          "aile"
+        ],
+        "tur": "park"
+      },
+      {
+        "ad": "Hüma Hatun Türbesi",
+        "lat": 40.1908023,
+        "lon": 29.0470147,
+        "slug": "huma-hatun-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Saraylılar Türbesi",
+        "lat": 40.1909111,
+        "lon": 29.0469983,
+        "slug": "saraylilar-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      }
+    ]
+  },
+  "kastamonu": {
+    "ad": "Kastamonu",
+    "ad_da": "Kastamonu'da",
+    "merkez": [
+      41.3680217,
+      33.7619177
+    ],
+    "yerler": [
+      {
+        "ad": "Mimar Vedat Tek Kültür merkezi",
+        "lat": 41.3660441,
+        "lon": 33.7644838,
+        "slug": "mimar-vedat-tek-kultur-merkezi",
+        "sure": 55,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "turistik-yer"
+      },
+      {
+        "ad": "Rick tombs",
+        "lat": 41.3701351,
+        "lon": 33.7697612,
+        "slug": "rick-tombs",
+        "sure": 55,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "turistik-yer"
+      },
+      {
+        "ad": "Şeyh Şaban-ı Veli Camii",
+        "lat": 41.3745366,
+        "lon": 33.7641479,
+        "slug": "seyh-saban-i-veli-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Şeyh Şaban-I Veli Külliyesi",
+        "lat": 41.3746211,
+        "lon": 33.7643242,
+        "slug": "seyh-saban-i-veli-kulliyesi",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "Kastamonu Şehitler Anıtı",
+        "lat": 41.3620789,
+        "lon": 33.7687698,
+        "slug": "kastamonu-sehitler-aniti",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Kastamonu Kalesi",
+        "lat": 41.3748007,
+        "lon": 33.7696521,
+        "slug": "kastamonu-kalesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Atabeygazi Camii",
+        "lat": 41.3756182,
+        "lon": 33.7711625,
+        "slug": "atabeygazi-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Sinanbey Camii",
+        "lat": 41.3722777,
+        "lon": 33.7744762,
+        "slug": "sinanbey-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Sinanbey Parkı",
+        "lat": 41.3724232,
+        "lon": 33.7748603,
+        "slug": "sinanbey-parki",
+        "sure": 50,
+        "temalar": [
+          "doga",
+          "sakin",
+          "aile"
+        ],
+        "tur": "park"
+      },
+      {
+        "ad": "Seyrangah Tepesi",
+        "lat": 41.3780658,
+        "lon": 33.7670465,
+        "slug": "seyrangah-tepesi",
+        "sure": 40,
+        "temalar": [
+          "doga",
+          "sakin"
+        ],
+        "tur": "manzara"
+      },
+      {
+        "ad": "Kastamonu Arkeoloji Müzesi",
+        "lat": 41.3736185,
+        "lon": 33.7756367,
+        "slug": "kastamonu-arkeoloji-muzesi",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "Yakup Ağa Camii",
+        "lat": 41.3767486,
+        "lon": 33.7722947,
+        "slug": "yakup-aga-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Yakup Ağa Külliyesi",
+        "lat": 41.3768376,
+        "lon": 33.7720925,
+        "slug": "yakup-aga-kulliyesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Ballık Konağı",
+        "lat": 41.3787085,
+        "lon": 33.7700799,
+        "slug": "ballik-konagi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Selviler Camii",
+        "lat": 41.3786707,
+        "lon": 33.7702733,
+        "slug": "selviler-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Şevkane Sultan Camii",
+        "lat": 41.3794292,
+        "lon": 33.7681685,
+        "slug": "sevkane-sultan-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Liva Paşa Etnografya Müzesi",
+        "lat": 41.3750651,
+        "lon": 33.7754999,
+        "slug": "liva-pasa-etnografya-muzesi",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "Küpçügez Camii",
+        "lat": 41.3757655,
+        "lon": 33.7749188,
+        "slug": "kupcugez-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Osmanlı Sarayı",
+        "lat": 41.3781172,
+        "lon": 33.7722723,
+        "slug": "osmanli-sarayi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Arabapazarı Hamamı",
+        "lat": 41.3784192,
+        "lon": 33.7719995,
+        "slug": "arabapazari-hamami",
+        "sure": 55,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "turistik-yer"
+      }
+    ]
+  },
+  "konya": {
+    "ad": "Konya",
+    "ad_da": "Konya'da",
+    "merkez": [
+      37.872734,
+      32.4924376
+    ],
+    "yerler": [
+      {
+        "ad": "Alaeddin Keykubad Camii",
+        "lat": 37.8733567,
+        "lon": 32.4927438,
+        "slug": "alaeddin-keykubad-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Mecma’ül-Bahreyn",
+        "lat": 37.8726117,
+        "lon": 32.494647,
+        "slug": "mecma-ul-bahreyn",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Aziz Pavlus Katolik Kilisesi",
+        "lat": 37.8709125,
+        "lon": 32.4932638,
+        "slug": "aziz-pavlus-katolik-kilisesi",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Sırçalı Medrese",
+        "lat": 37.8700498,
+        "lon": 32.4941267,
+        "slug": "sircali-medrese",
+        "sure": 55,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "turistik-yer"
+      },
+      {
+        "ad": "Beyhekim Türbesi",
+        "lat": 37.8717601,
+        "lon": 32.4885336,
+        "slug": "beyhekim-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Ebu İshak Kazeruni Türbesi",
+        "lat": 37.8713919,
+        "lon": 32.4881302,
+        "slug": "ebu-ishak-kazeruni-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Şems-i Tebrizi Türbesi",
+        "lat": 37.8736804,
+        "lon": 32.4975289,
+        "slug": "sems-i-tebrizi-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Tarihi Suriçi",
+        "lat": 37.8693013,
+        "lon": 32.4955025,
+        "slug": "tarihi-surici",
+        "sure": 55,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "turistik-yer"
+      },
+      {
+        "ad": "Tahir ile Zühre Türbesi",
+        "lat": 37.8698797,
+        "lon": 32.4854779,
+        "slug": "tahir-ile-zuhre-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Bedesten Çarşısı",
+        "lat": 37.8713234,
+        "lon": 32.5006755,
+        "slug": "bedesten-carsisi",
+        "sure": 55,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "turistik-yer"
+      },
+      {
+        "ad": "Atatürk Monument",
+        "lat": 37.8676007,
+        "lon": 32.4853283,
+        "slug": "ataturk-monument",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Şeyh Sadrettin Konevi Türbesi",
+        "lat": 37.8692548,
+        "lon": 32.4827567,
+        "slug": "seyh-sadrettin-konevi-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Dervish Brothers Center",
+        "lat": 37.8718841,
+        "lon": 32.5030437,
+        "slug": "dervish-brothers-center",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "Siyavüş Sultan Türbesi",
+        "lat": 37.868879,
+        "lon": 32.5021553,
+        "slug": "siyavus-sultan-turbesi",
+        "sure": 60,
+        "temalar": [
+          "tarih"
+        ],
+        "tur": "tarihi-yapi"
+      },
+      {
+        "ad": "Parsana Büyük Cami",
+        "lat": 37.8820584,
+        "lon": 32.4909398,
+        "slug": "parsana-buyuk-cami",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Sultan Selim Camii",
+        "lat": 37.8704143,
+        "lon": 32.5041222,
+        "slug": "sultan-selim-camii",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      },
+      {
+        "ad": "Karanlık Park",
+        "lat": 37.8620298,
+        "lon": 32.4805983,
+        "slug": "karanlik-park",
+        "sure": 50,
+        "temalar": [
+          "doga",
+          "sakin",
+          "aile"
+        ],
+        "tur": "park"
+      },
+      {
+        "ad": "Panorama Konya Müzesi 6TR",
+        "lat": 37.8699254,
+        "lon": 32.5115741,
+        "slug": "panorama-konya-muzesi-6tr",
+        "sure": 90,
+        "temalar": [
+          "tarih",
+          "sanat"
+        ],
+        "tur": "muze"
+      },
+      {
+        "ad": "Kurtuluş Parkı",
+        "lat": 37.8555695,
+        "lon": 32.4845738,
+        "slug": "kurtulus-parki",
+        "sure": 50,
+        "temalar": [
+          "doga",
+          "sakin",
+          "aile"
+        ],
+        "tur": "park"
+      },
+      {
+        "ad": "Akkabak Mehmet Aga Cami",
+        "lat": 37.8555392,
+        "lon": 32.4831162,
+        "slug": "akkabak-mehmet-aga-cami",
+        "sure": 35,
+        "temalar": [
+          "tarih",
+          "sakin"
+        ],
+        "tur": "ibadet-yeri"
+      }
+    ]
+  }
+}

@@ -1,0 +1,938 @@
+{
+  "100-yil-birlik-parki": {
+    "lat": 39.891014,
+    "lon": 32.8063626
+  },
+  "11th-floor-shopping-mall": {
+    "lat": 36.8857821,
+    "lon": 30.7109803
+  },
+  "2-aralik-aniti": {
+    "lat": 39.8943903,
+    "lon": 32.7840782
+  },
+  "23-nisan-kulesi": {
+    "lat": 39.9245381,
+    "lon": 32.8371112
+  },
+  "adana": {
+    "lat": 37.0,
+    "lon": 35.3213
+  },
+  "agora-hotel-terrace": {
+    "lat": 41.0105435,
+    "lon": 28.9761932
+  },
+  "akkopru": {
+    "lat": 39.9539176,
+    "lon": 32.8323856
+  },
+  "akyaka": {
+    "lat": 37.0546,
+    "lon": 28.3184
+  },
+  "alanya": {
+    "lat": 36.5438,
+    "lon": 31.9998
+  },
+  "alparslan-turkes-mezari": {
+    "lat": 39.9319162,
+    "lon": 32.8181344
+  },
+  "alparslan-turkes-parki": {
+    "lat": 39.9322455,
+    "lon": 32.818806
+  },
+  "amasya": {
+    "lat": 40.6499,
+    "lon": 35.8353
+  },
+  "anadolu-medeniyetleri-muzesi": {
+    "lat": 39.9385,
+    "lon": 32.8619
+  },
+  "ancient-hippodrome-substructure": {
+    "lat": 41.004072,
+    "lon": 28.973413
+  },
+  "ani": {
+    "lat": 40.5083,
+    "lon": 43.5619
+  },
+  "anit-park": {
+    "lat": 39.9219167,
+    "lon": 32.8342809
+  },
+  "anitkabir": {
+    "lat": 39.925011,
+    "lon": 32.8369019
+  },
+  "ankara": {
+    "lat": 39.9334,
+    "lon": 32.8597
+  },
+  "ankara-kalesi": {
+    "lat": 39.9412,
+    "lon": 32.8644
+  },
+  "antakya": {
+    "lat": 36.4018,
+    "lon": 36.3498
+  },
+  "antalya": {
+    "lat": 36.8969,
+    "lon": 30.7133
+  },
+  "antalya-deniz-biyolojisi-muzesi": {
+    "lat": 36.8854512,
+    "lon": 30.7024762
+  },
+  "antalya-muzesi": {
+    "lat": 36.8858,
+    "lon": 30.6802
+  },
+  "antalya-protestan-kilisesi": {
+    "lat": 36.8873349,
+    "lon": 30.697371
+  },
+  "antalya-toy-museum": {
+    "lat": 36.885515,
+    "lon": 30.7018977
+  },
+  "artvin": {
+    "lat": 41.160506,
+    "lon": 41.8398627
+  },
+  "association-of-orthodox-believers-in-antalya": {
+    "lat": 36.8872688,
+    "lon": 30.7040709
+  },
+  "assos": {
+    "lat": 39.4886,
+    "lon": 26.3406
+  },
+  "atabeygazi-camii": {
+    "lat": 41.3756548,
+    "lon": 33.7711666
+  },
+  "ataturk": {
+    "lat": 41.0150527,
+    "lon": 28.9768215
+  },
+  "ataturk-aniti": {
+    "lat": 39.9359843,
+    "lon": 32.7974421
+  },
+  "ataturk-statue": {
+    "lat": 36.8866751,
+    "lon": 30.7032631
+  },
+  "atik-ali-pasa-medresesi": {
+    "lat": 41.0084081,
+    "lon": 28.9699808
+  },
+  "attalus-ii-philadelphus": {
+    "lat": 36.8873169,
+    "lon": 30.7055649
+  },
+  "avanos": {
+    "lat": 38.7153,
+    "lon": 34.8467
+  },
+  "ayasofya": {
+    "lat": 41.0086,
+    "lon": 28.9802
+  },
+  "ayder": {
+    "lat": 40.9525203,
+    "lon": 41.1020508
+  },
+  "ayvalik": {
+    "lat": 39.3180962,
+    "lon": 26.6916708
+  },
+  "aziz-nikolaus-kilisesi": {
+    "lat": 36.8824963,
+    "lon": 30.7094897
+  },
+  "bahcelievler-merkez-cami": {
+    "lat": 39.9216168,
+    "lon": 32.8267297
+  },
+  "bakircilar-carsisi": {
+    "lat": 37.0628,
+    "lon": 37.3825
+  },
+  "balat": {
+    "lat": 41.0294,
+    "lon": 28.9489
+  },
+  "balgat-hamidiye-cami": {
+    "lat": 39.9111674,
+    "lon": 32.8189732
+  },
+  "ballik-konagi": {
+    "lat": 41.3787059,
+    "lon": 33.7701068
+  },
+  "baris-kulesi": {
+    "lat": 39.9242893,
+    "lon": 32.8366818
+  },
+  "bedri-koraman-parki": {
+    "lat": 39.9246179,
+    "lon": 32.8161783
+  },
+  "beypazari": {
+    "lat": 40.1667,
+    "lon": 31.9167
+  },
+  "bodrum": {
+    "lat": 37.0344,
+    "lon": 27.4305
+  },
+  "bolu": {
+    "lat": 40.6212099,
+    "lon": 31.6460259
+  },
+  "bursa": {
+    "lat": 40.1826,
+    "lon": 29.0665
+  },
+  "camii": {
+    "lat": 39.9420157,
+    "lon": 32.8122903
+  },
+  "canakkale": {
+    "lat": 40.1553,
+    "lon": 26.4142
+  },
+  "cansera-kent-bahcesi": {
+    "lat": 39.9044577,
+    "lon": 32.7925692
+  },
+  "cemal-sureya-parki": {
+    "lat": 39.9041361,
+    "lon": 32.8461402
+  },
+  "cemberlitas-hammam": {
+    "lat": 41.0085416,
+    "lon": 28.9716244
+  },
+  "cevri-kalfa-cesmesi": {
+    "lat": 41.0080019,
+    "lon": 28.9767691
+  },
+  "charles-darwin": {
+    "lat": 39.8940763,
+    "lon": 32.7826379
+  },
+  "cistern-of-philoxenos": {
+    "lat": 41.007606,
+    "lon": 28.9744173
+  },
+  "column-of-the-goths": {
+    "lat": 41.0146409,
+    "lon": 28.9856774
+  },
+  "corum": {
+    "lat": 40.5506,
+    "lon": 34.9556
+  },
+  "cumhuriyet-kulesi": {
+    "lat": 39.9257128,
+    "lon": 32.8372156
+  },
+  "datca": {
+    "lat": 36.7333,
+    "lon": 27.6833
+  },
+  "denizli": {
+    "lat": 37.7765,
+    "lon": 29.0864
+  },
+  "derinkuyu": {
+    "lat": 38.4003089,
+    "lon": 34.6995885
+  },
+  "diyarbakir": {
+    "lat": 37.9144,
+    "lon": 40.2306
+  },
+  "diyarbakır": {
+    "lat": 37.9144,
+    "lon": 40.2306
+  },
+  "dog-park": {
+    "lat": 36.8802363,
+    "lon": 30.7047329
+  },
+  "duden-selalesi": {
+    "lat": 36.8514,
+    "lon": 30.783
+  },
+  "edirne": {
+    "lat": 41.6771,
+    "lon": 26.5557
+  },
+  "egirdir": {
+    "lat": 37.8764,
+    "lon": 30.8531
+  },
+  "ehlibeyt-camii": {
+    "lat": 39.8967969,
+    "lon": 32.8179199
+  },
+  "emek-kose-camii": {
+    "lat": 39.931588,
+    "lon": 32.8211504
+  },
+  "emines-gogus-mutfak-muzesi": {
+    "lat": 37.0647,
+    "lon": 37.382
+  },
+  "enrico-fermi": {
+    "lat": 39.8939131,
+    "lon": 32.7829714
+  },
+  "ensar-mescidi": {
+    "lat": 39.8881038,
+    "lon": 32.8323351
+  },
+  "erciyes": {
+    "lat": 38.5327397,
+    "lon": 35.4502248
+  },
+  "ernest-rutherford": {
+    "lat": 39.8940446,
+    "lon": 32.7826689
+  },
+  "erzurum": {
+    "lat": 39.9,
+    "lon": 41.27
+  },
+  "eskisehir": {
+    "lat": 39.7767,
+    "lon": 30.5206
+  },
+  "eymir": {
+    "lat": 39.8339,
+    "lon": 32.8664
+  },
+  "fethiye": {
+    "lat": 36.6217,
+    "lon": 29.1164
+  },
+  "fighting-turks-in-the-korean-war-monument": {
+    "lat": 39.9390125,
+    "lon": 32.8416507
+  },
+  "foca": {
+    "lat": 38.668916,
+    "lon": 26.7547749
+  },
+  "galata-kulesi": {
+    "lat": 41.0256,
+    "lon": 28.9741
+  },
+  "gazeteci-yazar-cuneyt-arcayurek-parki": {
+    "lat": 39.9101064,
+    "lon": 32.7915761
+  },
+  "gaziantep": {
+    "lat": 37.0662,
+    "lon": 37.3833
+  },
+  "gaziantep-kalesi": {
+    "lat": 37.0662,
+    "lon": 37.3833
+  },
+  "gobeklitepe": {
+    "lat": 37.2231,
+    "lon": 38.9224
+  },
+  "gordion": {
+    "lat": 39.9004547,
+    "lon": 32.6913591
+  },
+  "goreme": {
+    "lat": 38.6431,
+    "lon": 34.8286
+  },
+  "goreme-acik-hava-muzesi": {
+    "lat": 38.64,
+    "lon": 34.845
+  },
+  "grave-of-ismet-inonu": {
+    "lat": 39.924705,
+    "lon": 32.8363969
+  },
+  "gulhane-parki": {
+    "lat": 41.0132,
+    "lon": 28.981
+  },
+  "haci-bayram-camii": {
+    "lat": 39.9441,
+    "lon": 32.8596
+  },
+  "haci-besir-aga-cesmesi": {
+    "lat": 41.0082515,
+    "lon": 28.9779961
+  },
+  "hadrian-kapisi": {
+    "lat": 36.8851,
+    "lon": 30.7086
+  },
+  "hali-muzesi": {
+    "lat": 41.0087318,
+    "lon": 28.9809561
+  },
+  "hamal": {
+    "lat": 41.0144875,
+    "lon": 28.9729077
+  },
+  "hamamonu": {
+    "lat": 39.9334686,
+    "lon": 32.8660778
+  },
+  "hasan-unsi-hazreti-tekkesi": {
+    "lat": 41.0123498,
+    "lon": 28.9781826
+  },
+  "hatay": {
+    "lat": 36.4018,
+    "lon": 36.3498
+  },
+  "hattusa": {
+    "lat": 40.0122,
+    "lon": 34.6153
+  },
+  "hayalet-bisiklet-aniti": {
+    "lat": 39.8928228,
+    "lon": 32.7837376
+  },
+  "hicret-camii": {
+    "lat": 39.9021118,
+    "lon": 32.8456846
+  },
+  "hurriyet-kulesi": {
+    "lat": 39.9273131,
+    "lon": 32.8349357
+  },
+  "i-giyaseddin-keyhusrev": {
+    "lat": 36.8853511,
+    "lon": 30.6976891
+  },
+  "ihlara": {
+    "lat": 38.2384492,
+    "lon": 34.3064664
+  },
+  "inkilap-kulesi": {
+    "lat": 39.9250196,
+    "lon": 32.8379156
+  },
+  "isaac-newton": {
+    "lat": 39.8936144,
+    "lon": 32.7831826
+  },
+  "istanbul": {
+    "lat": 41.0082,
+    "lon": 28.9784
+  },
+  "istanbul-arkeoloji-muzeleri": {
+    "lat": 41.0117,
+    "lon": 28.9813
+  },
+  "istanbul-cumhuriyet-egitim-muzesi": {
+    "lat": 41.0049596,
+    "lon": 28.9739331
+  },
+  "istanbul-fotograf-muzesi": {
+    "lat": 41.0046397,
+    "lon": 28.967754
+  },
+  "istiklal-kulesi": {
+    "lat": 39.927065,
+    "lon": 32.8345196
+  },
+  "istiklal-marsi": {
+    "lat": 41.0079266,
+    "lon": 28.9752446
+  },
+  "izci-parki": {
+    "lat": 39.8904929,
+    "lon": 32.7979665
+  },
+  "izmir": {
+    "lat": 38.4237,
+    "lon": 27.1428
+  },
+  "izmit": {
+    "lat": 40.7654,
+    "lon": 29.9408
+  },
+  "iznik": {
+    "lat": 40.4303445,
+    "lon": 29.7223732
+  },
+  "j-robert-oppenheimer": {
+    "lat": 39.8939773,
+    "lon": 32.7829621
+  },
+  "kackar": {
+    "lat": 40.8264,
+    "lon": 41.1247
+  },
+  "kaleici": {
+    "lat": 36.8848,
+    "lon": 30.7046
+  },
+  "kandil-camii": {
+    "lat": 39.8894001,
+    "lon": 32.829513
+  },
+  "kapadokya": {
+    "lat": 38.6431,
+    "lon": 34.8289
+  },
+  "kapali-carsi": {
+    "lat": 41.0101095,
+    "lon": 28.969963
+  },
+  "kara-mustafa-pasa-kulliyesi": {
+    "lat": 41.0087157,
+    "lon": 28.9677599
+  },
+  "karaalioglu-parki": {
+    "lat": 36.8805,
+    "lon": 30.704
+  },
+  "kars": {
+    "lat": 40.6013,
+    "lon": 43.0975
+  },
+  "kastamonu": {
+    "lat": 41.3680217,
+    "lon": 33.7619177
+  },
+  "kaymakli": {
+    "lat": 39.3976815,
+    "lon": 38.7859161
+  },
+  "kaymakli-yeralti-sehri": {
+    "lat": 38.4604,
+    "lon": 34.7518
+  },
+  "kayseri": {
+    "lat": 38.7312,
+    "lon": 35.4787
+  },
+  "koca-sinan-pasa-kulliyesi": {
+    "lat": 41.0088088,
+    "lon": 28.9690637
+  },
+  "kocaeli": {
+    "lat": 40.7654,
+    "lon": 29.9408
+  },
+  "konya": {
+    "lat": 37.8746,
+    "lon": 32.4932
+  },
+  "konyaalti-sahili": {
+    "lat": 36.8675,
+    "lon": 30.6435
+  },
+  "kutahya": {
+    "lat": 39.4167,
+    "lon": 29.9833
+  },
+  "lions-rug-and-kilims-art-gallery": {
+    "lat": 41.0128714,
+    "lon": 28.9778917
+  },
+  "m-s-k-i-mill-kulesi": {
+    "lat": 39.9247687,
+    "lon": 32.8374999
+  },
+  "magnaura-sarayi": {
+    "lat": 41.0054477,
+    "lon": 28.9796589
+  },
+  "malatya": {
+    "lat": 38.3552,
+    "lon": 38.3095
+  },
+  "manifaturaci-draper": {
+    "lat": 41.0148075,
+    "lon": 28.9710909
+  },
+  "manisa": {
+    "lat": 38.6191,
+    "lon": 27.4289
+  },
+  "mardin": {
+    "lat": 37.3212,
+    "lon": 40.7245
+  },
+  "marie-curie": {
+    "lat": 39.8939432,
+    "lon": 32.7829436
+  },
+  "marmara-universitesi-cumhuriyet-muzesi-ve-sanat-galerisi": {
+    "lat": 41.0051858,
+    "lon": 28.9743891
+  },
+  "marmaris": {
+    "lat": 36.855,
+    "lon": 28.274
+  },
+  "max-k-e-ludwig-planck": {
+    "lat": 39.894924,
+    "lon": 32.7827837
+  },
+  "mediterranean-civilizations-museum": {
+    "lat": 36.8840816,
+    "lon": 30.707878
+  },
+  "mehmet-zahid-kotku-cami": {
+    "lat": 39.8908632,
+    "lon": 32.8417496
+  },
+  "mehmetcik-kulesi": {
+    "lat": 39.9252273,
+    "lon": 32.8364216
+  },
+  "mersin": {
+    "lat": 36.8,
+    "lon": 34.6333
+  },
+  "mescit": {
+    "lat": 39.8906429,
+    "lon": 32.7825205
+  },
+  "midyat": {
+    "lat": 37.4167,
+    "lon": 41.35
+  },
+  "milyon-tasi": {
+    "lat": 41.0080674,
+    "lon": 28.9780181
+  },
+  "mimar-vedat-tek-kultur-merkezi": {
+    "lat": 41.3660441,
+    "lon": 33.7644838
+  },
+  "misir-carsisi": {
+    "lat": 41.0165,
+    "lon": 28.9705
+  },
+  "mithat-pasa": {
+    "lat": 41.0042194,
+    "lon": 28.9733768
+  },
+  "mkek-cami": {
+    "lat": 39.9371186,
+    "lon": 32.8371977
+  },
+  "mudafaa-i-hukuk-kulesi": {
+    "lat": 39.9254578,
+    "lon": 32.8367998
+  },
+  "mugla": {
+    "lat": 37.2153,
+    "lon": 28.3636
+  },
+  "munir-neriman-islamcioglu-camii": {
+    "lat": 39.8827268,
+    "lon": 32.8250399
+  },
+  "museum-of-the-history-of-science-and-technology-in-islam": {
+    "lat": 41.0132188,
+    "lon": 28.9789678
+  },
+  "mustafa-ayaz-muzesi-ve-kultur-merkezi": {
+    "lat": 39.9115197,
+    "lon": 32.8213115
+  },
+  "mustafa-parlar-aniti": {
+    "lat": 39.8923962,
+    "lon": 32.7823672
+  },
+  "n-zim-hikmet": {
+    "lat": 36.8806521,
+    "lon": 30.7038963
+  },
+  "nevsehir": {
+    "lat": 38.6244,
+    "lon": 34.7144
+  },
+  "nezihe-altinok-parki": {
+    "lat": 39.8918235,
+    "lon": 32.829618
+  },
+  "nigde": {
+    "lat": 37.9667,
+    "lon": 34.6833
+  },
+  "odtu-bahar-parki": {
+    "lat": 39.892679,
+    "lon": 32.7866445
+  },
+  "odtu-mezunlari-dernegi": {
+    "lat": 39.8971527,
+    "lon": 32.792259
+  },
+  "ovecler-vadisi": {
+    "lat": 39.8897527,
+    "lon": 32.8312849
+  },
+  "pamukkale": {
+    "lat": 37.92,
+    "lon": 29.12
+  },
+  "pasa-kapisi": {
+    "lat": 41.0111434,
+    "lon": 28.9779823
+  },
+  "pasabaglari": {
+    "lat": 38.677,
+    "lon": 34.8537
+  },
+  "pazaar-bathhouse": {
+    "lat": 36.8875506,
+    "lon": 30.7067351
+  },
+  "pera-spa": {
+    "lat": 41.0105966,
+    "lon": 28.9731818
+  },
+  "rick-tombs": {
+    "lat": 41.3701351,
+    "lon": 33.7697612
+  },
+  "rize": {
+    "lat": 41.0201,
+    "lon": 40.5234
+  },
+  "robert-boyle": {
+    "lat": 39.8937784,
+    "lon": 32.7829859
+  },
+  "roof-of-istanbul": {
+    "lat": 41.0140264,
+    "lon": 28.9688121
+  },
+  "rumkale": {
+    "lat": 37.269,
+    "lon": 37.8374
+  },
+  "safranbolu": {
+    "lat": 41.2547,
+    "lon": 32.6939
+  },
+  "sagalassos": {
+    "lat": 37.6764,
+    "lon": 30.5194
+  },
+  "sahabe-i-kiramdan-abdurrahman-sami-turbesi": {
+    "lat": 41.0066904,
+    "lon": 28.9791454
+  },
+  "samsun": {
+    "lat": 41.2867,
+    "lon": 36.33
+  },
+  "sanliurfa": {
+    "lat": 37.1591,
+    "lon": 38.7969
+  },
+  "sapanca": {
+    "lat": 40.6930585,
+    "lon": 30.273417
+  },
+  "selcuk": {
+    "lat": 38.433365,
+    "lon": 30.301647
+  },
+  "senyuva-gencaga-camii": {
+    "lat": 39.9262152,
+    "lon": 32.8129306
+  },
+  "sevkane-sultan-camii": {
+    "lat": 41.3794292,
+    "lon": 33.7681685
+  },
+  "seyh-saban-i-veli-camii": {
+    "lat": 41.3745397,
+    "lon": 33.7641467
+  },
+  "seyh-saban-i-veli-kulliyesi": {
+    "lat": 41.3746359,
+    "lon": 33.7643296
+  },
+  "sht-p-yzb-baris-yurtseven-parki": {
+    "lat": 39.8801164,
+    "lon": 32.8285778
+  },
+  "silifke": {
+    "lat": 36.3778166,
+    "lon": 33.9260372
+  },
+  "sirince": {
+    "lat": 37.9423518,
+    "lon": 27.4328343
+  },
+  "sivas": {
+    "lat": 39.7477,
+    "lon": 37.0179
+  },
+  "sogutozu-parki": {
+    "lat": 39.9118743,
+    "lon": 32.7986851
+  },
+  "sokullu-fatih-camii": {
+    "lat": 39.8868332,
+    "lon": 32.837537
+  },
+  "sultan-spa-and-wellness-center": {
+    "lat": 41.0123762,
+    "lon": 28.977568
+  },
+  "sultanahmet-camii": {
+    "lat": 41.0054,
+    "lon": 28.9768
+  },
+  "sunset-viewpoint": {
+    "lat": 36.8828441,
+    "lon": 30.7031544
+  },
+  "tarakli": {
+    "lat": 40.3965784,
+    "lon": 30.4921608
+  },
+  "tbmm-camii": {
+    "lat": 39.9093144,
+    "lon": 32.8505163
+  },
+  "teoman-ozturk-parki": {
+    "lat": 39.9025646,
+    "lon": 32.8046408
+  },
+  "tgc-press-media-museum": {
+    "lat": 41.0085619,
+    "lon": 28.9722162
+  },
+  "the-mawlawi-lodge-of-antalya": {
+    "lat": 36.886937,
+    "lon": 30.704299
+  },
+  "tokat": {
+    "lat": 40.3891816,
+    "lon": 36.6315075
+  },
+  "tomb-of-hatice-turhan-sultan": {
+    "lat": 41.0162025,
+    "lon": 28.9719047
+  },
+  "tombstones": {
+    "lat": 36.8833295,
+    "lon": 30.7039098
+  },
+  "topkapi-sarayi": {
+    "lat": 41.0115,
+    "lon": 28.9834
+  },
+  "trabzon": {
+    "lat": 41.0027,
+    "lon": 39.7168
+  },
+  "turk-ve-islam-eserleri-muzesi": {
+    "lat": 41.0062801,
+    "lon": 28.974915
+  },
+  "two-door-khan": {
+    "lat": 36.8875002,
+    "lon": 30.7064078
+  },
+  "uchisar": {
+    "lat": 38.6293826,
+    "lon": 34.8046138
+  },
+  "uchisar-kalesi": {
+    "lat": 38.6307,
+    "lon": 34.805
+  },
+  "umbrella-street": {
+    "lat": 36.8868824,
+    "lon": 30.7073236
+  },
+  "unal-temizyurek-parki": {
+    "lat": 39.8805086,
+    "lon": 32.8248866
+  },
+  "urfa": {
+    "lat": 37.1591,
+    "lon": 38.7969
+  },
+  "urgup": {
+    "lat": 38.63,
+    "lon": 34.9128
+  },
+  "urla": {
+    "lat": 38.3228184,
+    "lon": 26.7672998
+  },
+  "van": {
+    "lat": 38.4891,
+    "lon": 43.4089
+  },
+  "weiner-heisenberg": {
+    "lat": 39.8949509,
+    "lon": 32.7827797
+  },
+  "wolfgang-pauli": {
+    "lat": 39.8940137,
+    "lon": 32.7826472
+  },
+  "yavuz-ozcan-parki": {
+    "lat": 36.8853696,
+    "lon": 30.69708
+  },
+  "yeralti-selalesi": {
+    "lat": 36.8858534,
+    "lon": 30.6986984
+  },
+  "yerebatan-sarnici": {
+    "lat": 41.0084,
+    "lon": 28.9779
+  },
+  "yilanli-sutun": {
+    "lat": 41.0056649,
+    "lon": 28.9751101
+  },
+  "yukari-ovecler-ulu-camii": {
+    "lat": 39.8791916,
+    "lon": 32.827329
+  },
+  "yunus-emre-parki": {
+    "lat": 39.9289698,
+    "lon": 32.8190811
+  },
+  "zafer-kulesi": {
+    "lat": 39.9249783,
+    "lon": 32.8359874
+  },
+  "zeugma-mozaik-muzesi": {
+    "lat": 37.0751,
+    "lon": 37.3866
+  },
+  "zincirli-bedesten": {
+    "lat": 37.0632,
+    "lon": 37.3811
+  },
+  "zindan-baba-turbesi": {
+    "lat": 41.0187867,
+    "lon": 28.9691768
+  }
+}

@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evliya Çelebi AI</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="uygulama-govdesi">
+    <nav class="kenar-cubugu" aria-label="Bölümler">
+      <button type="button" class="kenar-dugmesi aktif" data-gorunum="sohbet" data-i18n-title="nav_chat" title="Sohbet">
+        <span class="kenar-ikon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19c3.5-1 6.1-3.2 8.2-6.6L18.5 4l1.5 1.5-8.4 5.3C8.2 12.9 6 15.5 5 19Z"/><path d="m13.2 12.4-1.7-1.7M4 20l3.5-3.5"/></svg></span>
+        <span class="kenar-etiket" data-i18n="nav_chat">Sohbet</span>
+      </button>
+      <button type="button" class="kenar-dugmesi" data-gorunum="bugun" data-i18n-title="tab_today" title="Bugün">
+        <span class="kenar-ikon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 5.5h14v14H5zM8 3v5M16 3v5M5 9.5h14"/><path d="M9 13h2M13 13h2M9 16h2M13 16h2"/></svg></span>
+        <span class="kenar-etiket" data-i18n="tab_today">Bugün</span>
+      </button>
+      <button type="button" class="kenar-dugmesi" data-gorunum="yakinimda" data-i18n-title="tab_nearby" title="Yakınımda">
+        <span class="kenar-ikon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8 4.8-2.2Z"/><path d="M12 1.8v2M12 20.2v2M1.8 12h2M20.2 12h2"/></svg></span>
+        <span class="kenar-etiket" data-i18n="tab_nearby">Yakınımda</span>
+      </button>
+      <button type="button" class="kenar-dugmesi" data-gorunum="kultur" data-i18n-title="tab_curiosities" title="Meraklar">
+        <span class="kenar-ikon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5c3.1-.7 5.7 0 8 2v12c-2.3-2-4.9-2.7-8-2V5.5ZM20 5.5c-3.1-.7-5.7 0-8 2v12c2.3-2 4.9-2.7 8-2V5.5Z"/><path d="M7 9h2.5M7 12h2.5M14.5 9H17M14.5 12H17"/></svg></span>
+        <span class="kenar-etiket" data-i18n="tab_curiosities">Meraklar</span>
+      </button>
+      <button type="button" class="kenar-dugmesi" data-gorunum="ayarlar" data-i18n-title="nav_settings" title="Ayarlar">
+        <span class="kenar-ikon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/><circle cx="12" cy="12" r="7"/></svg></span>
+        <span class="kenar-etiket" data-i18n="nav_settings">Ayarlar</span>
+      </button>
+      <a href="/admin" class="kenar-dugmesi kenar-admin" data-i18n-title="admin_login" title="Yönetici Girişi">
+        <span class="kenar-ikon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="8" cy="10" r="4"/><path d="m11 13 8 8M15 17l2-2M17 19l2-2"/></svg></span>
+      </a>
+    </nav>
+
+    <div class="gorunum-alani">
+
+      <div class="gorunum-icerik aktif" data-gorunum-icerik="sohbet">
+        <div class="sayfa">
+          <section class="sohbet-bolumu">
+            <header class="sohbet-basligi">
+              <div class="baslik-satiri">
+                <div class="avatar" id="avatar">
+                  <img src="/assets/evliya-avatar.jpg" alt="Evliya Çelebi" class="avatar-gorsel">
+                </div>
+                <div class="baslik-metni">
+                  <h1>Evliya Çelebi</h1>
+                  <p class="alt-baslik" data-i18n="subtitle">Seyahatname'nin yazarı, Türkiye'nin sanal elçisi</p>
+                </div>
+              </div>
+              <div class="ses-kontrolleri">
+                <button type="button" id="yeniYolculukButonu" class="yeni-yolculuk-butonu" data-i18n-title="new_journey" title="Yeni Yolculuk">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5c2.7-.6 5 0 7 1.7v13c-2-1.7-4.3-2.3-7-1.7v-13ZM19 4.5c-2.7-.6-5 0-7 1.7v13c2-1.7 4.3-2.3 7-1.7v-13Z"/><path d="M12 6.2v13M16 8v4M14 10h4"/></svg>
+                  <span data-i18n="new_journey">Yeni Yolculuk</span>
+                </button>
+                <button type="button" id="kartButonu" class="kart-butonu" data-i18n-title="make_card" title="Rotamı Kart Yap">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="2.2"/><path d="M3.5 15.5 8 11l3.5 3.5 3-3.5 6 6"/><circle cx="8" cy="9" r="1.3"/></svg>
+                  <span data-i18n="make_card">Rotamı Kart Yap</span>
+                </button>
+                <button type="button" id="sesDugmesi" class="ses-dugmesi" aria-pressed="true" title="Sesi kapat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10v4h4l5 4V6l-5 4H5Z"/><path d="M17 9c1.7 1.7 1.7 4.3 0 6M19.5 6.5c3 3 3 8 0 11"/></svg></button>
+              </div>
+            </header>
+            <div class="demo-bildirimi" id="demoBildirimi" role="status" data-i18n="demo_notice">Demo modu açık — Gemini kotası kullanılmıyor.</div>
+
+            <div class="mesaj-akisi" id="mesajAkisi">
+              <div class="balon evliya">
+                <p data-i18n="welcome">Hoş geldin, ey yolcu! Seyahatname'nin sayfalarından süzülüp geldim; Türkiye'yi sana anlatmaya hazırım. Ne tür yerler ilgini çeker — tarih mi, doğa mı, deniz mi?</p>
+              </div>
+              <div class="baslangic-kartlari" id="baslangicKartlari"></div>
+            </div>
+
+            <form class="mesaj-formu" id="mesajFormu">
+              <input type="text" id="mesajGirisi" placeholder="Mesajını yaz..." data-i18n-placeholder="message_placeholder" autocomplete="off" required>
+              <button type="submit" data-i18n="send">Gönder</button>
+            </form>
+            <footer class="uygulama-altligi">
+              <span>© Evliya Çelebi AI</span>
+            </footer>
+          </section>
+
+          <aside class="defter-bolumu">
+            <div class="defter-sekmeleri" role="tablist">
+              <button type="button" class="defter-sekme-dugmesi aktif" data-sekme="gorseller" role="tab" aria-selected="true" data-i18n="tab_visuals">Görseller</button>
+              <button type="button" class="defter-sekme-dugmesi" data-sekme="harita" role="tab" aria-selected="false" data-i18n="tab_map" disabled>Harita</button>
+              <button type="button" class="defter-sekme-dugmesi" data-sekme="profil" role="tab" aria-selected="false" data-i18n="tab_profile">Profil</button>
+            </div>
+
+            <div class="defter-sekme-icerik aktif" data-sekme-icerik="gorseller">
+              <div class="anlati-sahnesi" id="anlatiSahnesi">
+                <div class="anlati-medya bos" id="anlatiMedya"></div>
+                <button type="button" class="altyazi-dugmesi" id="altyaziDugmesi" aria-pressed="false" title="Görsel altyazısını aç">CC Altyazı</button>
+                <div class="anlati-serit">
+                  <p id="anlatiMetni"></p>
+                </div>
+              </div>
+
+              <p class="defter-medya-baslik" data-i18n="visited_places">Ziyaret Ettiğin Yerler</p>
+              <div class="defter-medya" id="defterMedya">
+                <p class="bos-not" data-i18n="visited_empty">Konuştukça buraya yerler ve görseller düşecek.</p>
+              </div>
+
+              <div class="defter-lezzet" id="defterLezzet"></div>
+
+              <div class="defter-rota" id="defterRota"></div>
+            </div>
+
+            <div class="defter-sekme-icerik" data-sekme-icerik="harita">
+              <div class="defter-harita" id="defterHarita"></div>
+            </div>
+
+            <div class="defter-sekme-icerik" data-sekme-icerik="profil">
+              <div class="gezgin-profili" id="gezginProfili">
+                <p class="bos-not" data-i18n="profile_learning">Evliya seni tanımaya başlıyor...</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <div class="gorunum-icerik" data-gorunum-icerik="bugun">
+        <div class="gorunum-sayfa-govdesi">
+          <div class="gunluk-plan-ust">
+            <p class="kultur-sekme-aciklama" data-i18n="today_title">Bugün Ne Yapmalıyım?</p>
+            <p data-i18n="today_desc">Evliya; konumuna, vaktine ve gezgin profiline göre açıklanabilir bir plan kursun.</p>
+          </div>
+          <form id="gunlukPlanFormu" class="gunluk-plan-formu">
+            <label><span data-i18n="city">Şehir</span><input type="text" id="planSehir" list="planSehirListesi" value="İstanbul" autocomplete="off"><datalist id="planSehirListesi"><option value="İstanbul"><option value="Ankara"><option value="Kapadokya"><option value="Antalya"><option value="Gaziantep"><option value="Bursa"><option value="İzmir"><option value="Konya"><option value="Mardin"><option value="Safranbolu"><option value="Trabzon"></datalist></label>
+            <label><span data-i18n="duration">Süre</span><select id="planSure"><option value="2-saat" data-i18n="two_hours">2 saat</option><option value="yarim-gun" data-i18n="half_day" selected>Yarım gün</option><option value="tam-gun" data-i18n="full_day">Tam gün</option></select></label>
+            <label><span data-i18n="transport">Ulaşım</span><select id="planUlasim"><option value="yuruyus" data-i18n="walking">Yürüyüş</option><option value="toplu-tasima" data-i18n="transit">Toplu taşıma</option><option value="arac" data-i18n="car">Araç</option></select></label>
+            <label><span data-i18n="interest">İlgi</span><select id="planIlgi"><option value="tarih" data-i18n="history">Tarih</option><option value="doga" data-i18n="nature">Doğa</option><option value="deniz" data-i18n="sea">Deniz</option><option value="yemek" data-i18n="food">Yemek</option><option value="sanat" data-i18n="art">Sanat</option><option value="sakin" data-i18n="calm">Sakinlik</option><option value="aile" data-i18n="family">Aile</option><option value="macera" data-i18n="adventure">Macera</option></select></label>
+            <label><span data-i18n="pace">Tempo</span><select id="planTempo"><option value="rahat" data-i18n="relaxed">Rahat</option><option value="dengeli" data-i18n="balanced" selected>Dengeli</option><option value="yogun" data-i18n="busy">Yoğun</option></select></label>
+            <button type="button" id="planKonumButonu" class="plan-konum-dugmesi" data-i18n="use_location">◎ Konumumu kullan</button>
+            <small id="planKonumDurumu" data-i18n="location_default">Konum verilmezse seçilen şehrin merkezi başlangıç alınır.</small>
+            <button type="submit" class="plan-uret-dugmesi" data-i18n="plan_day">✦ Günümü Planla</button>
+          </form>
+          <div id="gunlukPlanSonucu" class="gunluk-plan-sonucu"></div>
+        </div>
+      </div>
+
+      <div class="gorunum-icerik" data-gorunum-icerik="yakinimda">
+        <div class="gorunum-sayfa-govdesi">
+          <div class="yakinimda-ust">
+            <p class="kultur-sekme-aciklama" data-i18n="nearby_title">Evliya Yakınında</p>
+            <p data-i18n="nearby_privacy">Konumunu yalnızca bu düğmeye bastığında kullanırız; sunucuda saklamayız.</p>
+            <div class="yakinimda-kontroller">
+              <select id="yakinimdaYaricap" aria-label="Arama mesafesi" data-i18n-aria-label="search_distance">
+                <option value="1000">1 km</option>
+                <option value="3000" selected>3 km</option>
+                <option value="5000">5 km</option>
+              </select>
+              <button type="button" id="yakinimdaButonu" data-i18n="find_nearby">◎ Yakınımdakileri Bul</button>
+            </div>
+            <small id="yakinimdaDurum"></small>
+          </div>
+          <div class="yakinimda-listesi" id="yakinimdaListesi">
+            <p class="bos-not" data-i18n="nearby_empty">Yakındaki kültür, tarih ve manzara noktaları burada görünecek.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gorunum-icerik" data-gorunum-icerik="kultur">
+        <div class="gorunum-sayfa-govdesi">
+          <p class="kultur-sekme-aciklama" data-i18n="curiosities_title">Yabancılar Soruyor, Evliya Cevaplıyor</p>
+          <p class="merak-gizlilik-notu" id="merakGizlilikNotu" data-i18n="curiosities_desc">Kültürel sorular, dilin ve sohbet bağlamına göre seçiliyor.</p>
+          <div class="kultur-sorulari" id="kulturSorulari"></div>
+        </div>
+      </div>
+
+      <div class="gorunum-icerik" data-gorunum-icerik="ayarlar">
+        <div class="gorunum-sayfa-govdesi ayarlar-govdesi">
+          <p class="kultur-sekme-aciklama" data-i18n="nav_settings">Ayarlar</p>
+          <label class="ayarlar-satiri">
+            <span data-i18n="language_auto">Otomatik dil</span>
+            <select id="dilSecimi" class="ses-secimi dil-secimi" title="Dil seç" aria-label="Dil seç">
+              <option value="auto">🌐 Otomatik</option>
+              <option value="tr">Türkçe</option>
+              <option value="en">English</option>
+              <option value="de">Deutsch</option>
+              <option value="ja">日本語</option>
+            </select>
+          </label>
+          <label class="ayarlar-satiri">
+            <span data-i18n="voice_select">Ses seç</span>
+            <select id="sesSecimi" class="ses-secimi" title="Ses seç" data-i18n-title="voice_select">
+              <option value="" data-i18n="voice_auto">Otomatik (dile göre)</option>
+            </select>
+          </label>
+          <div class="ayarlar-satiri">
+            <span data-i18n="demo_title">API kullanmadan test et</span>
+            <button type="button" id="demoModuDugmesi" class="demo-modu-dugmesi" aria-pressed="false" title="API kullanmadan test et" data-i18n-title="demo_title">Demo: Kapalı</button>
+          </div>
+          <footer class="uygulama-altligi">
+            <a href="/admin" data-i18n="admin_login">Yönetici Girişi</a>
+          </footer>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="kart-overlay" id="kartOverlay">
+    <div class="kart-kutu">
+      <p class="kart-yukleniyor" id="kartYukleniyor" data-i18n="preparing_card">Kart hazırlanıyor...</p>
+      <canvas id="kartCanvas" class="kart-canvas"></canvas>
+      <p id="kartEksikNotu" class="kart-eksik-notu"></p>
+      <div class="kart-aksiyonlar">
+        <button type="button" id="kartIndirButonu" class="kart-indir-butonu" data-i18n="download_card">Kartı İndir</button>
+        <button type="button" id="kartKapatButonu" class="kart-kapat-butonu" data-i18n="close">Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="yolculuk-overlay" id="yolculukOverlay" aria-hidden="true">
+    <section class="yolculuk-kutu" role="dialog" aria-modal="true" aria-labelledby="yolculukBaslik">
+      <button type="button" id="yolculukKapat" class="yolculuk-kapat" aria-label="Kapat">×</button>
+      <p class="yolculuk-ustluk" data-i18n="journey_overline">Evliya ile yeni bir sayfa</p>
+      <h2 id="yolculukBaslik" data-i18n="journey_title">Nasıl bir yolculuk düşlüyorsun?</h2>
+      <div class="yolculuk-ilerleme" id="yolculukIlerleme"></div>
+      <div id="yolculukIcerik"></div>
+    </section>
+  </div>
+
+  <div class="merak-izin-overlay" id="merakIzinOverlay" aria-hidden="true">
+    <section class="merak-izin-kutu" role="dialog" aria-modal="true" aria-labelledby="merakIzinBaslik">
+      <span class="merak-izin-ikon">✦</span>
+      <p class="yolculuk-ustluk">Evliya zamanla daha iyi rehber olsun</p>
+      <h2 id="merakIzinBaslik">Anonim meraklarını paylaşmak ister misin?</h2>
+      <p>İzin verirsen yalnızca sorunun konusu, cevap dili ve isteğe bağlı ülke bilgisi tutulur. Mesajının tamamı, adın, IP adresin ve kesin konumun kaydedilmez.</p>
+      <label for="merakUlke">Ülke (isteğe bağlı)</label>
+      <select id="merakUlke">
+        <option value="">Belirtmek istemiyorum</option>
+        <option value="DE">Almanya</option><option value="GB">Birleşik Krallık</option>
+        <option value="US">ABD</option><option value="FR">Fransa</option>
+        <option value="IT">İtalya</option><option value="JP">Japonya</option>
+        <option value="NL">Hollanda</option><option value="TR">Türkiye</option>
+      </select>
+      <div class="merak-izin-aksiyonlar">
+        <button type="button" id="merakIzinVer">İzin ver</button>
+        <button type="button" id="merakIzinReddet" class="ikincil">Yalnızca sohbet et</button>
+      </div>
+      <small>Bu tercihi tarayıcı ayarlarından temizleyerek daha sonra sıfırlayabilirsin.</small>
+    </section>
+  </div>
+
+  <div class="mekan-anlat-overlay" id="mekanAnlatOverlay" aria-hidden="true">
+    <section class="mekan-anlat-kutu" role="dialog" aria-modal="true" aria-labelledby="mekanAnlatBaslik">
+      <button type="button" id="mekanAnlatKapat" class="mekan-anlat-kapat" aria-label="Kapat">×</button>
+      <p class="yolculuk-ustluk" data-i18n="story_overline">Mekânda Evliya Anlatıyor</p>
+      <h2 id="mekanAnlatBaslik" data-i18n="place_story">Mekânın hikâyesi</h2>
+      <p id="mekanAnlatTur" class="mekan-anlat-tur"></p>
+      <div class="mekan-anlat-modlari" aria-label="Anlatım biçimi">
+        <button type="button" class="anlatim-modu-dugmesi aktif" data-mod="kisa" data-i18n="short_story">60 saniyede anlat</button>
+        <button type="button" class="anlatim-modu-dugmesi" data-mod="hikaye" data-i18n="tell_story">Hikâyesini anlat</button>
+        <button type="button" class="anlatim-modu-dugmesi" data-mod="detay" data-i18n="detailed_guide">Detaylı rehber</button>
+      </div>
+      <div class="mekan-anlat-govde">
+        <p id="mekanAnlatMetni" data-i18n="preparing_story">Evliya anlatıyı hazırlıyor...</p>
+      </div>
+      <small id="mekanAnlatKaynak" class="mekan-anlat-kaynak"></small>
+      <div class="mekan-anlat-aksiyonlari">
+        <button type="button" id="mekanAnlatDinle" data-i18n="listen">🔊 Dinle</button>
+        <button type="button" id="mekanAnlatRotayaEkle" data-i18n="add_route">+ Rotama ekle</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="seyahat-modu" id="seyahatModu" aria-hidden="true">
+    <header class="seyahat-modu-baslik">
+      <div><span data-i18n="travelling_with_evliya">Evliya ile yoldasın</span><strong id="seyahatPlanBaslik" data-i18n="todays_journey">Bugünkü yolculuk</strong></div>
+      <button type="button" id="seyahatModuKapat" aria-label="Seyahat modunu kapat">×</button>
+    </header>
+    <main class="seyahat-modu-icerik">
+      <div class="seyahat-ilerleme"><div id="seyahatIlerlemeCubugu"></div></div>
+      <p class="seyahat-ilerleme-metni" id="seyahatIlerlemeMetni"></p>
+      <section class="seyahat-mevcut-kart">
+        <span class="seyahat-simdi" data-i18n="current_stop">ŞİMDİKİ DURAK</span>
+        <div class="seyahat-durak-satiri"><b id="seyahatDurakNo">1</b><div><h2 id="seyahatDurakAdi"></h2><p id="seyahatDurakTuru"></p></div></div>
+        <p id="seyahatDurakNedeni" class="seyahat-durak-nedeni"></p>
+        <div class="seyahat-bilgi-rozetleri"><span id="seyahatZiyaretSuresi"></span><span id="seyahatUlasimBilgisi"></span></div>
+      </section>
+      <section class="seyahat-oncesi-kart">
+        <button type="button" id="seyahatOncesiDugmesi" aria-expanded="false"><span data-i18n="before_you_go">◈ Gitmeden Önce</span><b>+</b></button>
+        <div id="seyahatOncesiIcerik" class="gitmeden-once-icerik"></div>
+      </section>
+      <section class="seyahat-sonraki" id="seyahatSonraki"></section>
+      <div class="seyahat-ana-aksiyonlar">
+        <a id="seyahatYolTarifi" target="_blank" rel="noopener noreferrer" data-i18n="directions">↗ Yol tarifi</a>
+        <button type="button" id="seyahatEvliyaAnlat" data-i18n="let_evliya_tell">🔊 Evliya anlatsın</button>
+        <button type="button" id="seyahatGeldim" class="seyahat-geldim" data-i18n="arrived">✓ Geldim</button>
+        <button type="button" id="seyahatGec" data-i18n="skip_stop">Bu durağı geç</button>
+      </div>
+      <section class="seyahat-kurtar">
+        <strong data-i18n="plan_changed">Plan değişti mi?</strong>
+        <div><button type="button" data-seyahat-kosul="yoruldum" data-i18n="tired">😮‍💨 Yoruldum</button><button type="button" data-seyahat-kosul="yagmur" data-i18n="rain">☂ Yağmur</button><button type="button" data-seyahat-kosul="aciktim" data-i18n="hungry">🍽 Acıktım</button><button type="button" data-seyahat-kosul="vakit-az" data-i18n="little_time">⌛ Vaktim az</button></div>
+      </section>
+      <p id="seyahatDurumNotu" class="seyahat-durum-notu"></p>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/i18n.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

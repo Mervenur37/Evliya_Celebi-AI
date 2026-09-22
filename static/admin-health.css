@@ -1,0 +1,24 @@
+.icerik-sagligi {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(4, 1fr);
+  gap: 1px;
+  margin-top: 14px;
+  border: 1px solid var(--kenar);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--kenar);
+}
+.icerik-sagligi > * { padding: 14px; background: var(--panel); }
+.icerik-sagligi-baslik { display: grid; gap: 4px; }
+.icerik-sagligi-baslik span { color: var(--kehribar); font-size: .65rem; text-transform: uppercase; letter-spacing: .12em; }
+.icerik-sagligi-baslik strong { font: 1rem Georgia, serif; }
+.saglik-oge { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 9px; }
+.saglik-oge b { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; font: 1rem Georgia, serif; }
+.saglik-oge span { color: var(--soluk); font-size: .7rem; }
+.saglik-oge.iyi b { background: #263c2a; color: #9ed5a6; }
+.saglik-oge.uyari b { background: #473519; color: #e8ba67; }
+.saglik-oge.kritik b { background: #48231f; color: #ee9e96; }
+@media (max-width: 850px) {
+  .icerik-sagligi { grid-template-columns: 1fr 1fr; }
+  .icerik-sagligi-baslik { grid-column: 1 / -1; }
+}

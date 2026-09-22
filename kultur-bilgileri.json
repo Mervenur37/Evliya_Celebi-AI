@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "cay-ikrami", "durum": "onayli", "son_kontrol": "2026-08-19",
+    "dogrulanmis_bilgiler": ["Türkiye'de çay günün farklı saatlerinde tüketilen sosyal bir içecektir.", "Birlikte çay içmek dostluk, misafirperverlik ve nezaket göstergesi olarak görülür.", "Çay çoğunlukla ince belli bardakta ve kişinin tercihine göre açık ya da koyu servis edilir."],
+    "adab": ["İkramı kabul etmek zorunlu değildir; nazikçe teşekkür etmek yeterlidir.", "Bardağın yeniden doldurulmasını istemiyorsan açık ve nazik biçimde söyleyebilirsin."],
+    "kaynaklar": [{"kurum": "GoTürkiye", "baslik": "Tea as a Symbol of Common Life and Culture in Anatolia", "url": "https://goturkiye.com/gastronomy/blog/tea-as-a-symbol-of-common-life-and-culture-in-anatolia"}]
+  },
+  {
+    "slug": "cami-ziyareti", "durum": "onayli", "son_kontrol": "2026-08-19",
+    "dogrulanmis_bilgiler": ["Cami içinde sessizliğe ve ibadet edenlerin huzuruna saygı gösterilmelidir.", "Telefon sessize alınmalı; fotoğraf ve video için görevli izni gözetilmelidir.", "Ayakkabılar girişte çıkarılır ve omuzları, kolları ve dizleri örten sade kıyafet tercih edilir."],
+    "adab": ["İbadet saatinde görevlilerin yönlendirmesini izle.", "İnsanların yakın plan fotoğrafını izin almadan çekme."],
+    "kaynaklar": [{"kurum": "Diyanet İşleri Başkanlığı", "baslik": "Rules to Follow During a Mosque Visit", "url": "https://aydin.diyanet.gov.tr/kusadasi/sayfalar/contentdetail.aspx?ContentId=784&MenuCategory=Kurumsal"}]
+  },
+  {
+    "slug": "nazar-boncugu", "durum": "onayli", "son_kontrol": "2026-08-19",
+    "dogrulanmis_bilgiler": ["Nazar boncuğu, kötü bakışın etkisini uzaklaştırdığına inanılan geleneksel bir Anadolu simgesidir.", "Kapılarda, iş yerlerinde, takılarda ve yeni doğanlara verilen hediyelerde görülebilir.", "İzmir'in Görece köyü cam nazar boncuğu üretimiyle ilişkilendirilir."],
+    "adab": ["Bunu herkesin aynı biçimde inandığı dinî bir zorunluluk gibi değil, yaygın bir halk inancı ve el sanatı olarak anlat."],
+    "kaynaklar": [{"kurum": "GoTürkiye", "baslik": "Turkish Handcrafts Worth Looking Out For", "url": "https://goturkiye.com/handcrafts/turkish-handcrafts-worth-looking-out-for"}]
+  },
+  {
+    "slug": "turk-kahvaltisi", "durum": "onayli", "son_kontrol": "2026-08-19",
+    "dogrulanmis_bilgiler": ["Türk kahvaltısı tatlı ve tuzlu küçük tabakların paylaşıldığı sosyal bir sofradır.", "Peynir, zeytin, domates, salatalık, yumurta, ekmek, reçel ve çay yaygın öğelerdir; içerik yöreye göre değişir.", "Özellikle hafta sonu kahvaltıları aile ve arkadaşlarla uzun süren bir buluşmaya dönüşebilir."],
+    "adab": ["Her şeyden az miktarda deneyebilir, istemediğin yiyeceği nazikçe geri çevirebilirsin."],
+    "kaynaklar": [{"kurum": "GoTürkiye Gastronomy", "baslik": "Turkish Breakfast", "url": "https://gastronomy.goturkiye.com/turkish-breakfast"}]
+  },
+  {
+    "slug": "misafirperverlik", "durum": "onayli", "son_kontrol": "2026-08-19",
+    "dogrulanmis_bilgiler": ["Misafire yiyecek veya içecek sunmak gündelik sosyal ilişkilerde yaygın bir nezaket biçimidir.", "Ziyaret öncesinde haber vermek ve ev sahibinin mahremiyetine saygı göstermek önemlidir."],
+    "adab": ["İkramı kabul etmek zorunda değilsin; teşekkür ederek nazikçe reddedebilirsin.", "Ev içinde fotoğraf çekmeden önce izin iste."],
+    "kaynaklar": [{"kurum": "Diyanet İşleri Başkanlığı", "baslik": "Guide in Etiquette", "url": "https://dinhizmetleri.diyanet.gov.tr/Documents/%C4%B0ngilizce%202024.pdf"}]
+  },
+  {
+    "slug": "hamam-adabi", "durum": "onayli", "son_kontrol": "2026-08-19",
+    "dogrulanmis_bilgiler": ["Osmanlı hamam kültürü Roma kamusal banyo geleneği ile İslamî temizlik anlayışının etkilerini birleştirir.", "Hamamlar tarih boyunca yalnızca yıkanma değil, sosyalleşme mekânları da olmuştur."],
+    "adab": ["İşletmenin kadın/erkek saatlerini, hizmet kapsamını ve kıyafet kurallarını önceden sor.", "Kişilerin fotoğrafını çekme; mahremiyete özellikle dikkat et."],
+    "kaynaklar": [{"kurum": "GoTürkiye", "baslik": "Traditional Turkish Hammams", "url": "https://goturkiye.com/blog/traditional-turkish-hammams"}]
+  },
+  {
+    "slug": "kahve-fali", "durum": "onayli", "son_kontrol": "2026-08-19",
+    "dogrulanmis_bilgiler": ["Türk kahvesi misafirperverlik, dostluk ve sohbetle ilişkili ortak bir kültürel gelenektir.", "Fincanda kalan telvenin yorumlanması, kahve geleneğiyle bağlantılı eğlenceli bir halk pratiğidir.", "Türk kahvesi kültürü 2013'te UNESCO Somut Olmayan Kültürel Miras Temsilî Listesi'ne kaydedilmiştir."],
+    "adab": ["Kahve falını kesin bilgi veya profesyonel danışmanlık değil, sosyal ve eğlenceli bir gelenek olarak değerlendir."],
+    "kaynaklar": [{"kurum": "UNESCO", "baslik": "Turkish Coffee Culture and Tradition", "url": "https://ich.unesco.org/en/RL/turkish-coffee-culture-and-tradition-00645"}]
+  },
+  {"slug": "evde-ayakkabi", "durum": "incelemede", "son_kontrol": "2026-08-19", "dogrulanmis_bilgiler": [], "adab": ["Ev sahibini izle veya ayakkabıyı çıkarıp çıkarmaman gerektiğini sor."], "kaynaklar": []},
+  {"slug": "pazarlik", "durum": "incelemede", "son_kontrol": "2026-08-19", "dogrulanmis_bilgiler": [], "adab": ["Etiketli mağaza ve restoran fiyatlarında pazarlık bekleme; çarşıda önce satıcıya uygun olup olmadığını sor."], "kaynaklar": []},
+  {"slug": "bahsis", "durum": "incelemede", "son_kontrol": "2026-08-19", "dogrulanmis_bilgiler": [], "adab": ["Servis bedelinin hesaba eklenip eklenmediğini kontrol et; güncel uygulamayı işletmeye sor."], "kaynaklar": []},
+  {"slug": "ramazanda-seyahat", "durum": "incelemede", "son_kontrol": "2026-08-19", "dogrulanmis_bilgiler": [], "adab": ["İbadet edenlere karşı saygılı ol; işletme saatlerinin değişebileceğini resmî kanallardan kontrol et."], "kaynaklar": []},
+  {"slug": "yalniz-seyahat", "durum": "incelemede", "son_kontrol": "2026-08-19", "dogrulanmis_bilgiler": [], "adab": ["Güncel güvenlik ve ulaşım bilgilerini resmî seyahat duyurularından kontrol et; acil durumda 112'yi ara."], "kaynaklar": []}
+]

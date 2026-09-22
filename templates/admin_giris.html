@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Evliya Yönetim · Giriş</title><link rel="stylesheet" href="/admin.css">
+</head>
+<body class="admin-giris-sayfasi">
+  <main class="admin-giris-karti">
+    <div class="admin-muhur">EÇ</div>
+    <p class="admin-ustluk">Evliya Çelebi AI</p>
+    <h1>Yönetim otağına giriş</h1>
+    <p class="admin-aciklama">Anonim kültürel merak eğilimlerini yalnızca yetkili kullanıcılar görebilir.</p>
+    {% if kurulum_eksik %}
+      <div class="admin-uyari"><strong>Kurulum gerekli</strong><span><code>.env</code> dosyasına <code>ADMIN_PASSWORD</code> ve <code>FLASK_SECRET_KEY</code> ekleyip uygulamayı yeniden başlat.</span></div>
+    {% endif %}
+    {% if hata %}<p class="admin-hata" role="alert">{{ hata }}</p>{% endif %}
+    <form method="post" class="admin-giris-formu">
+      <input type="hidden" name="csrf" value="{{ csrf }}">
+      <label for="parola">Yönetici parolası</label>
+      <input id="parola" name="parola" type="password" autocomplete="current-password" required {% if kurulum_eksik %}disabled{% endif %}>
+      <button type="submit" {% if kurulum_eksik %}disabled{% endif %}>Otağa Gir →</button>
+    </form>
+    <a href="/" class="admin-geri">← Evliya’ya dön</a>
+  </main>
+</body>
+</html>
